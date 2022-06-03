@@ -21,7 +21,7 @@ module.exports = {
       filename: "./index.html"
     })
   ],
-  entry: "./src/index.tsx",
+  entry: path.resolve(__dirname, "index.tsx"),
   output: {
     path: path.resolve(__dirname, "dist"),
     publicPath: "/",
