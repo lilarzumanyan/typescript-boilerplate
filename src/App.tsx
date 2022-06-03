@@ -1,8 +1,15 @@
 // @flow
 import React from "react";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
 
 const App = () => {
-     return <div>div</div>;
+  return (
+    <Provider store={store()}>
+      {" "}
+      <div>div</div>
+    </Provider>
+  );
 };
 
 export default App;

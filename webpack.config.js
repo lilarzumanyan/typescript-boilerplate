@@ -25,7 +25,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     publicPath: "/",
-    filename: `index${isProd ? `.min` : ""}.js`
+    filename: `index.js`
   },
   devServer: {
     port: 3000
